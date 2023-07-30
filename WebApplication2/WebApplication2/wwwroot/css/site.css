@@ -1,0 +1,25 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: url("https://pixabay.com/get/g8a8888ac07e1aa6371afdcce4b7c99b1576ae3cc4e8ba5112c1fe259b76c5ce5dbdaa3386721aa0aadef5fc904cb6052af63cf910fc74ae636c15c9ba56ea1ed7f3d48482103e56207579c0a182ed24f_1280.jpg");
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(255, 255, 255,0.7);
+    border-radius: 15px;
+}
